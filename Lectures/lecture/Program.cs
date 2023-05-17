@@ -648,44 +648,42 @@
 
 using System;
 
+       
+// // Prompt user to enter a time with AM/PM
+// Console.Write("Enter a time (e.g. 2:30 PM): ");
+// string input = Console.ReadLine();
 
-        // // Prompt user to enter a time with AM/PM
-        // Console.Write("Enter a time (e.g. 2:30 PM): ");
-        // string input = Console.ReadLine();
+// // Parse the user input into a DateTime object
+// DateTime time;
+// if (DateTime.TryParse(input, out time))
+// {
+//     // Convert the time to 24-hour format if it's in AM/PM format
+//     if (time.ToString("tt") == "PM" && time.Hour != 12)
+//     {
+//         time = time.AddHours(12);
+//     }
+//     else if (time.ToString("tt") == "AM" && time.Hour == 12)
+//     {
+//         time = time.AddHours(-12);
+//     }
 
-        // // Parse the user input into a DateTime object
-        // DateTime time;
-        // if (DateTime.TryParse(input, out time))
-        // {
-        //     // Convert the time to 24-hour format if it's in AM/PM format
-        //     if (time.ToString("tt") == "PM" && time.Hour != 12)
-        //     {
-        //         time = time.AddHours(12);
-        //     }
-        //     else if (time.ToString("tt") == "AM" && time.Hour == 12)
-        //     {
-        //         time = time.AddHours(-12);
-        //     }
+//     // Compare the user input time with the current time
+//     if (time > DateTime.Now)
+//     {
+//         Console.WriteLine("The entered time is in the future.");
+//     }
+//     else if (time < DateTime.Now)
+//     {
+//         Console.WriteLine("The entered time has already passed.");
+//     }
+//     else
+//     {
+//         Console.WriteLine("The entered time is the current time.");
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Invalid time format.");
+// }
 
-        //     // Compare the user input time with the current time
-        //     if (time > DateTime.Now)
-        //     {
-        //         Console.WriteLine("The entered time is in the future.");
-        //     }
-        //     else if (time < DateTime.Now)
-        //     {
-        //         Console.WriteLine("The entered time has already passed.");
-        //     }
-        //     else
-        //     {
-        //         Console.WriteLine("The entered time is the current time.");
-        //     }
-        // }
-        // else
-        // {
-        //     Console.WriteLine("Invalid time format.");
-        // }
-
-string curr = (DateTime.Parse("04/30/2023")).ToString("yyyy");
-System.Console.WriteLine(curr);
 
