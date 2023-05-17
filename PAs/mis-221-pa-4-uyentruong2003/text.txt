@@ -1,0 +1,4 @@
+Hi, I am uyen truong, a rising junior majoring in mis at UA.
+Right now, I am in the first semester of the program, in which I have to take MIS 221 class.
+Our instructor, Jeff Lucas, is teaching us c# in this class.
+
